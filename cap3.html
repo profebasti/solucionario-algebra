@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solucionario – Guía de Álgebra 1.º Medio</title>
+
+  <!-- MathJax: renderiza LaTeX -->
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="acordeon.css">
+<script defer src="acordeon.js"></script>
+
+  <!-- Latin Modern (Computer-Modern) – misma tipografía que Overleaf -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latin-modern@1.0.0/latinmodern.css">
+
+<!-- SOLO sustituye este bloque <style> por el anterior -->
+<style>
+  /* Texto corriente */
+  body{
+    font-family: system-ui, sans-serif;
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    line-height: 1.4;
+  }
+
+  /* Encabezados: Latin Modern + negrita */
+  h1, h2, h3, h4{
+    font-family: "Latin Modern Roman", "CMU Serif", "Computer Modern", serif;
+    font-weight: 700;   /* ← negrita */
+    margin-top: 2rem;
+  }
+
+  pre{white-space:pre-wrap}
+</style>
+
+</head>
+<body>
+
+
+Solucionario – Guía de Álgebra 1.º Medio 2025-07-06 
+
+<!-- ===============================================================
+     CAPÍTULO 3 – Ítem i : (A ± B)² = A² ± 2AB + B²
+================================================================ -->
+<h2 id="cap3-item1">Capítulo 3 – Ítem i: Desarrollar \((A\pm B)^2=A^{2}\pm2AB+B^{2}\)</h2>
+<h3>Solución</h3>
+<ol>
+  <li>\((x+1)^2 = x^{2}+2x+1\)</li>
+  <li>\((x-2)^2 = x^{2}-4x+4\)</li>
+  <li>\((y+3)^2 = y^{2}+6y+9\)</li>
+  <li>\((y-4)^2 = y^{2}-8y+16\)</li>
+  <li>\((a+5)^2 = a^{2}+10a+25\)</li>
+  <li>\((a-6)^2 = a^{2}-12a+36\)</li>
+  <li>\((m+7)^2 = m^{2}+14m+49\)</li>
+  <li>\((m-8)^2 = m^{2}-16m+64\)</li>
+  <li>\((p+9)^2 = p^{2}+18p+81\)</li>
+  <li>\((p-10)^2 = p^{2}-20p+100\)</li>
+  <li>\((2x+3)^2 = 4x^{2}+12x+9\)</li>
+  <li>\((2x-5)^2 = 4x^{2}-20x+25\)</li>
+  <li>\((3y+4)^2 = 9y^{2}+24y+16\)</li>
+  <li>\((3y-6)^2 = 9y^{2}-36y+36\)</li>
+  <li>\((4a+1)^2 = 16a^{2}+8a+1\)</li>
+  <li>\((4a-3)^2 = 16a^{2}-24a+9\)</li>
+  <li>\((5m+2)^2 = 25m^{2}+20m+4\)</li>
+  <li>\((5m-7)^2 = 25m^{2}-70m+49\)</li>
+  <li>\((6p+1)^2 = 36p^{2}+12p+1\)</li>
+  <li>\((6p-4)^2 = 36p^{2}-48p+16\)</li>
+  <li>\(\bigl(t+\tfrac12\bigr)^2 = t^{2}+t+\tfrac14\)</li>
+  <li>\(\bigl(t-\tfrac12\bigr)^2 = t^{2}-t+\tfrac14\)</li>
+  <li>\(\bigl(x+\tfrac34\bigr)^2 = x^{2}+\tfrac32x+\tfrac{9}{16}\)</li>
+  <li>\(\bigl(x-\tfrac34\bigr)^2 = x^{2}-\tfrac32x+\tfrac{9}{16}\)</li>
+  <li>\(\bigl(\tfrac23y+1\bigr)^2 = \tfrac49y^{2}+\tfrac43y+1\)</li>
+  <li>\(\bigl(2u-\tfrac13\bigr)^2 = 4u^{2}-\tfrac43u+\tfrac19\)</li>
+  <li>\(\bigl(3k+\tfrac25\bigr)^2 = 9k^{2}+\tfrac{12}{5}k+\tfrac{4}{25}\)</li>
+  <li>\(\bigl(\tfrac52a-\tfrac15\bigr)^2 = \tfrac{25}{4}a^{2}-a+\tfrac{1}{25}\)</li>
+  <li>\((7r+5)^2 = 49r^{2}+70r+25\)</li>
+  <li>\((7r-5)^2 = 49r^{2}-70r+25\)</li>
+  <li>\((3x^{2}+2)^2 = 9x^{4}+12x^{2}+4\)</li>
+  <li>\((3x^{2}-2)^2 = 9x^{4}-12x^{2}+4\)</li>
+  <li>\((4y^{2}+3y)^2 = 16y^{4}+24y^{3}+9y^{2}\)</li>
+  <li>\((4y^{2}-3y)^2 = 16y^{4}-24y^{3}+9y^{2}\)</li>
+  <li>\((2a^{2}b+ab)^2 = 4a^{4}b^{2}+4a^{3}b^{2}+a^{2}b^{2}\)</li>
+  <li>\((2a^{2}b-ab)^2 = 4a^{4}b^{2}-4a^{3}b^{2}+a^{2}b^{2}\)</li>
+  <li>\(\bigl(\tfrac32m^{2}+4\bigr)^2 = \tfrac94m^{4}+12m^{2}+16\)</li>
+  <li>\(\bigl(\tfrac32m^{2}-4\bigr)^2 = \tfrac94m^{4}-12m^{2}+16\)</li>
+  <li>\((5n^{3}+6n)^2 = 25n^{6}+60n^{4}+36n^{2}\)</li>
+  <li>\((5n^{3}-6n)^2 = 25n^{6}-60n^{4}+36n^{2}\)</li>
+  <li>\((0{,}5x+1{,}2)^2 = 0{,}25x^{2}+1{,}2x+1{,}44\)</li>
+  <li>\((0{,}5x-1{,}2)^2 = 0{,}25x^{2}-1{,}2x+1{,}44\)</li>
+  <li>\((8p^{4}+q^{2})^2 = 64p^{8}+16p^{4}q^{2}+q^{4}\)</li>
+  <li>\((8p^{4}-q^{2})^2 = 64p^{8}-16p^{4}q^{2}+q^{4}\)</li>
+  <li>\((2x^{3}+5x^{2})^2 = 4x^{6}+20x^{5}+25x^{4}\)</li>
+  <li>\((2x^{3}-5x^{2})^2 = 4x^{6}-20x^{5}+25x^{4}\)</li>
+  <li>\((9a^{2}b^{2}+4)^2 = 81a^{4}b^{4}+72a^{2}b^{2}+16\)</li>
+  <li>\((9a^{2}b^{2}-4)^2 = 81a^{4}b^{4}-72a^{2}b^{2}+16\)</li>
+  <li>\(\bigl(3u^{2}v+\tfrac23v\bigr)^2 = 9u^{4}v^{2}+4u^{2}v^{2}+\tfrac49v^{2}\)</li>
+  <li>\(\bigl(3u^{2}v-\tfrac23v\bigr)^2 = 9u^{4}v^{2}-4u^{2}v^{2}+\tfrac49v^{2}\)</li>
+  <li>\((7c^{3}+11)^2 = 49c^{6}+154c^{3}+121\)</li>
+  <li>\((7c^{3}-11)^2 = 49c^{6}-154c^{3}+121\)</li>
+  <li>\(\bigl(\tfrac34x^{2}+\tfrac58\bigr)^2 = \tfrac{9}{16}x^{4}+\tfrac{15}{16}x^{2}+\tfrac{25}{64}\)</li>
+  <li>\(\bigl(\tfrac34x^{2}-\tfrac58\bigr)^2 = \tfrac{9}{16}x^{4}-\tfrac{15}{16}x^{2}+\tfrac{25}{64}\)</li>
+  <li>\((x^{2}+xy)^2 = x^{4}+2x^{3}y+x^{2}y^{2}\)</li>
+  <li>\((x^{2}-xy)^2 = x^{4}-2x^{3}y+x^{2}y^{2}\)</li>
+  <li>\(\bigl(2ab+\tfrac14\bigr)^2 = 4a^{2}b^{2}+ab+\tfrac{1}{16}\)</li>
+  <li>\(\bigl(2ab-\tfrac14\bigr)^2 = 4a^{2}b^{2}-ab+\tfrac{1}{16}\)</li>
+  <li>\((5p^{2}q-3pq^{2})^2 = 25p^{4}q^{2}-30p^{3}q^{3}+9p^{2}q^{4}\)</li>
+  <li>\((5p^{2}q+3pq^{2})^2 = 25p^{4}q^{2}+30p^{3}q^{3}+9p^{2}q^{4}\)</li>
+  <li>\((0{,}8r^{2}+0{,}4s)^2 = 0{,}64r^{4}+0{,}64r^{2}s+0{,}16s^{2}\)</li>
+  <li>\((0{,}8r^{2}-0{,}4s)^2 = 0{,}64r^{4}-0{,}64r^{2}s+0{,}16s^{2}\)</li>
+  <li>\(\bigl(\tfrac52w-\tfrac35\bigr)^2 = \tfrac{25}{4}w^{2}-3w+\tfrac{9}{25}\)</li>
+  <li>\(\bigl(\tfrac52w+\tfrac35\bigr)^2 = \tfrac{25}{4}w^{2}+3w+\tfrac{9}{25}\)</li>
+</ol>
+
+<!-- ===============================================================
+     CAPÍTULO 3 – Ítem ii : (a + b)(a − b)
+================================================================ -->
+<h2 id="cap3-item2">Capítulo 3 – Ítem ii: Desarrollar \((a+b)(a-b)\)</h2>
+<h3>Solución</h3>
+<ol>
+  <li>\(x^{2}-1\)</li>
+  <li>\(x^{2}-4\)</li>
+  <li>\(y^{2}-9\)</li>
+  <li>\(y^{2}-16\)</li>
+  <li>\(a^{2}-25\)</li>
+  <li>\(a^{2}-36\)</li>
+  <li>\(m^{2}-49\)</li>
+  <li>\(m^{2}-64\)</li>
+  <li>\(p^{2}-81\)</li>
+  <li>\(p^{2}-100\)</li>
+  <li>\(t^{2}-\tfrac14\)</li>
+  <li>\(u^{2}-\tfrac{9}{16}\)</li>
+  <li>\(v^{2}-\tfrac{4}{25}\)</li>
+  <li>\(w^{2}-\tfrac19\)</li>
+  <li>\(k^{2}-\tfrac{25}{36}\)</li>
+  <li>\(n^{2}-\tfrac{4}{49}\)</li>
+  <li>\(q^{2}-\tfrac{25}{64}\)</li>
+  <li>\(s^{2}-\tfrac{9}{100}\)</li>
+  <li>\(r^{2}-\tfrac{16}{121}\)</li>
+  <li>\(h^{2}-\tfrac{25}{144}\)</li>
+  <li>\(4x^{2}-9\)</li>
+  <li>\(9x^{2}-25\)</li>
+  <li>\(16y^{2}-1\)</li>
+  <li>\(25y^{2}-4\)</li>
+  <li>\(36a^{2}-49\)</li>
+  <li>\(49a^{2}-16\)</li>
+  <li>\(64m^{2}-25\)</li>
+  <li>\(81m^{2}-4\)</li>
+  <li>\(100p^{2}-9\)</li>
+  <li>\(121p^{2}-36\)</li>
+  <li>\(144t^{2}-1\)</li>
+  <li>\(169u^{2}-25\)</li>
+  <li>\(196v^{2}-49\)</li>
+  <li>\(225w^{2}-16\)</li>
+  <li>\(256k^{2}-81\)</li>
+  <li>\(289n^{2}-64\)</li>
+  <li>\(324q^{2}-121\)</li>
+  <li>\(361s^{2}-169\)</li>
+  <li>\(400r^{2}-144\)</li>
+  <li>\(441h^{2}-196\)</li>
+  <li>\(x^{4}-9\)</li>
+  <li>\(4y^{4}-25y^{2}\)</li>
+  <li>\(9a^{4}b^{2}-1\)</li>
+  <li>\(16p^{6}-4p^{2}\)</li>
+  <li>\(25m^{4}n^{4}-16\)</li>
+  <li>\(36r^{8}-49r^{4}\)</li>
+  <li>\(0{,}25x^{2}-1{,}44\)</li>
+  <li>\(0{,}64y^{4}-0{,}36\)</li>
+  <li>\(\tfrac{9}{4}a^{4}-16\)</li>
+  <li>\(\tfrac{25}{16}b^{6}-9b^{2}\)</li>
+  <li>\(49c^{6}-121\)</li>
+  <li>\(64d^{4}-81d^{2}\)</li>
+  <li>\(81e^{8}-4e^{4}\)</li>
+  <li>\(100f^{4}-25\)</li>
+  <li>\(\tfrac{16}{9}g^{2}-\tfrac{4}{25}\)</li>
+  <li>\(\tfrac{25}{4}h^{4}-1\)</li>
+  <li>\(121j^{10}-9j^{4}\)</li>
+  <li>\(144k^{6}-k^{2}\)</li>
+  <li>\(169m^{8}n^{4}-36\)</li>
+  <li>\(196p^{4}q^{4}-49p^{2}q^{2}\)</li>
+</ol>
+
+<!-- ===============================================================
+     CAPÍTULO 3 – Ítem iii : (A + B)(A + C)
+================================================================ -->
+<h2 id="cap3-item3">Capítulo 3 – Ítem iii: Desarrollar \((A+B)(A+C)\)</h2>
+<h3>Solución</h3>
+<ol>
+  <li>\(x^{2}+3x+2\)</li>
+  <li>\(x^{2}+8x+15\)</li>
+  <li>\(y^{2}+3y-4\)</li>
+  <li>\(y^{2}-8y+12\)</li>
+  <li>\(a^{2}-a-6\)</li>
+  <li>\(a^{2}+3a-28\)</li>
+  <li>\(m^{2}+9m+8\)</li>
+  <li>\(m^{2}+4m-45\)</li>
+  <li>\(p^{2}+4p-12\)</li>
+  <li>\(p^{2}-8p+7\)</li>
+  <li>\(4x^{2}+16x+15\)</li>
+  <li>\(4x^{2}-6x-4\)</li>
+  <li>\(9y^{2}+12y-12\)</li>
+  <li>\(9y^{2}+9y-4\)</li>
+  <li>\(16a^{2}+32a+7\)</li>
+  <li>\(16a^{2}-36a+18\)</li>
+  <li>\(25m^{2}-35m-18\)</li>
+  <li>\(36p^{2}+30p+4\)</li>
+  <li>\(49t^{2}-21t-10\)</li>
+  <li>\(64u^{2}-6u-18\)</li>
+  <li>\(x^{2}+2x+\tfrac34\)</li>
+  <li>\(x^{2}-\tfrac23x-\tfrac89\)</li>
+  <li>\(y^{2}-0{,}7y-0{,}6\)</li>
+  <li>\(a^{2}-\tfrac12a-\tfrac{5}{16}\)</li>
+  <li>\(b^{2}-2b+\tfrac{21}{25}\)</li>
+  <li>\(c^{2}+c+0{,}16\)</li>
+  <li>\(d^{2}-\tfrac37d-\tfrac{10}{49}\)</li>
+  <li>\(e^{2}+0{,}5e-0{,}66\)</li>
+  <li>\(f^{2}-\tfrac1{10}f-\tfrac{3}{25}\)</li>
+  <li>\(g^{2}+\tfrac19g-\tfrac{20}{81}\)</li>
+  <li>\(x^{4}+5x^{2}+4\)</li>
+  <li>\(x^{4}-x^{2}-6\)</li>
+  <li>\(y^{4}+y^{3}-6y^{3}-6y^{2}\)</li>
+  <li>\(y^{4}+6y^{3}+5y^{2}\)</li>
+  <li>\(a^{4}b^{2}+4a^{2}b+3\)</li>
+  <li>\(a^{4}b^{2}+2a^{2}b-8\)</li>
+  <li>\(p^{6}-p^{3}q-2q^{2}\)</li>
+  <li>\(p^{6}+7p^{3}q+10q^{2}\)</li>
+  <li>\(m^{4}n^{2}+10m^{2}n+21\)</li>
+  <li>\(m^{4}n^{2}-7m^{2}n+6\)</li>
+  <li>\(4x^{6}+26x^{3}+40\)</li>
+  <li>\(9y^{8}-9y^{4}-4\)</li>
+  <li>\(16a^{4}b^{2}+44a^{2}b+18\)</li>
+  <li>\(25p^{4}q^{2}+20p^{2}q-21\)</li>
+  <li>\(36r^{8}+12r^{6}-35r^{4}\)</li>
+  <li>\(49s^{6}+56s^{4}+12s^{2}\)</li>
+  <li>\(64k^{10}-16k^{5}-3\)</li>
+  <li>\(81h^{4}+135h^{2}+44\)</li>
+  <li>\(\tfrac{x^{2}}{4}+2x+\tfrac{84}{25}\)</li>
+  <li>\(\tfrac{16y^{2}}{25}-\tfrac{16y}{25}-\tfrac{21}{25}\)</li>
+  <li>\(\tfrac{121a^{2}}{100}-\tfrac{143a}{100}-\tfrac{99}{50}\)</li>
+  <li>\(\tfrac{169m^{2}}{100}+\tfrac{13m}{5}+\tfrac{51}{100}\)</li>
+  <li>\(\tfrac{9u^{2}}{4}+3u-8\)</li>
+  <li>\(\tfrac{25w^{2}}{16}+\tfrac{15w}{2}+5\)</li>
+  <li>\(\tfrac{4z^{2}}{9}+\tfrac{2z}{9}-\tfrac{2}{9}\)</li>
+  <li>\(\tfrac{16n^{2}}{25}-\tfrac{16n}{25}-\tfrac{21}{25}\)</li>
+  <li>\(x^{2}+7xy+10y^{2}\)</li>
+  <li>\(a^{2}+ab-12b^{2}\)</li>
+  <li>\(m^{4}-3m^{3}n-10m^{2}n^{2}\)</li>
+  <li>\(p^{4}q^{2}-p^{2}qr-2r^{2}\)</li>
+</ol>
+
+</body>
+</html>

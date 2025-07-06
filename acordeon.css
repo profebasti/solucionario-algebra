@@ -1,0 +1,4 @@
+/* acordeon.css */
+details{margin:.6rem 0;border:1px solid #ccc;border-radius:.4rem;padding:.4rem}
+summary{cursor:pointer;font-weight:600;list-style:none}
+summary::-webkit-details-marker{display:none}      /* quita triángulo viejo en Safari */
