@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solucionario – Guía de Álgebra 1.º Medio</title>
+
+  <!-- MathJax: renderiza LaTeX -->
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="acordeon.css">
+<script defer src="acordeon.js"></script>
+
+  <!-- Latin Modern (Computer-Modern) – misma tipografía que Overleaf -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latin-modern@1.0.0/latinmodern.css">
+
+<!-- SOLO sustituye este bloque <style> por el anterior -->
+<style>
+  /* Texto corriente */
+  body{
+    font-family: system-ui, sans-serif;
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    line-height: 1.4;
+  }
+
+  /* Encabezados: Latin Modern + negrita */
+  h1, h2, h3, h4{
+    font-family: "Latin Modern Roman", "CMU Serif", "Computer Modern", serif;
+    font-weight: 700;   /* ← negrita */
+    margin-top: 2rem;
+  }
+
+  pre{white-space:pre-wrap}
+</style>
+
+</head>
+<body>
+
+
+Solucionario – Guía de Álgebra 1.º Medio 2025-07-06 
+
+<!-- ===============================================================
+     CAPÍTULO 6 – Sistemas de ecuaciones
+================================================================ -->
+
+<!-- Ítem i ------------------------------------------------------- -->
+<h2 id="cap6-i"><strong>Capítulo 6 – Ítem i: Solución de cada sistema</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>\((5,\,4)\)</li>
+  <li>\((2,\,1)\)</li>
+  <li>Infinitas soluciones (misma recta)</li>
+  <li>Infinitas soluciones (misma recta)</li>
+  <li>\(\varnothing\)  — sin solución (rectas paralelas)</li>
+  <li>\(\varnothing\)  — sin solución (rectas paralelas)</li>
+  <li>\(\bigl(\tfrac{25}{9},\,\tfrac19\bigr)\)</li>
+  <li>\((1,\,3)\)</li>
+  <li>\((2,\,2)\)</li>
+  <li>\((2,\,3)\)</li>
+  <li>\((7,\,1)\)</li>
+  <li>\(\bigl(\tfrac13,\,-\tfrac23\bigr)\)</li>
+  <li>\((4,\,2)\)</li>
+  <li>\((13,\,4)\)</li>
+  <li>\((3,\,2)\)</li>
+</ol>
+<p>Cada par ordenado \((x,y)\) es el punto de intersección; “Infinitas soluciones” indica rectas coincidentes y “\(\varnothing\)” rectas paralelas.</p>
+
+<!-- Ítem ii ------------------------------------------------------ -->
+<h2 id="cap6-ii"><strong>Capítulo 6 – Ítem ii: Resolver sistemas \(2\times2\) por sustitución</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>
+    \[
+    \begin{aligned}
+      x-2y&=1 &\Rightarrow& x=1+2y\\
+      3x+y&=3 &\Rightarrow& 3(1+2y)+y=3\\
+             &&\Rightarrow& 3+7y=3\\
+             &&\Rightarrow& y=0,\;x=1
+    \end{aligned}\qquad\boxed{(1,0)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      2x-12y&=6 &\Rightarrow& x=3+6y\\
+      3x+y  &=9 &\Rightarrow& 3(3+6y)+y=9\\
+             &&\Rightarrow& 9+19y=9\\
+             &&\Rightarrow& y=0,\;x=3
+    \end{aligned}\qquad\boxed{(3,0)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      2x+y&=6 &\Rightarrow& y=6-2x\\
+      3x-y&=4 &\Rightarrow& 3x-(6-2x)=4\\
+             &&\Rightarrow& 5x=10\\
+             &&\Rightarrow& x=2,\;y=2
+    \end{aligned}\qquad\boxed{(2,2)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      2x-3y &= 9 &\Rightarrow& x=\tfrac{9+3y}{2}\\
+      3x+5y &= -15 &\Rightarrow& 3\!\bigl(\tfrac{9+3y}{2}\bigr)+5y=-15\\
+             &&\Rightarrow& \tfrac{27}{2}+\tfrac{19}{2}y=-15\\
+             &&\Rightarrow& 27+19y=-30\\
+             &&\Rightarrow& y=-3,\;x=0
+    \end{aligned}\qquad\boxed{(0,-3)}
+    \]
+  </li>
+</ol>
+<p>Los cuatro sistemas son <em>compatibles determinados</em>; cada pareja es la intersección única de las dos rectas.</p>
+
+<!-- Ítem iii ----------------------------------------------------- -->
+<h2 id="cap6-iii"><strong>Capítulo 6 – Ítem iii: Igualar expresiones y resolver</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>
+    \[
+    \begin{aligned}
+      3x-y&=1 &\Rightarrow& y=3x-1\\
+      2x+y&=9 &\Rightarrow& y=9-2x\\
+      3x-1&=9-2x\;\Rightarrow\;5x=10\;\Rightarrow\;x=2,\;y=5
+    \end{aligned}\qquad\boxed{(2,5)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      15x-8y&=80 &\Rightarrow& y=\tfrac{15x-80}{8}\\
+      5x-3y&=25  &\Rightarrow& y=\tfrac{5x-25}{3}\\
+      \tfrac{15x-80}{8}&=\tfrac{5x-25}{3}\;\Rightarrow\;x=8,\;y=5
+    \end{aligned}\qquad\boxed{(8,5)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      6y-x&=10 &\Rightarrow& x=6y-10\\
+      x-2&=3y  &\Rightarrow& x=3y+2\\
+      6y-10 &= 3y+2\;\Rightarrow\;y=4,\;x=14
+    \end{aligned}\qquad\boxed{(14,4)}
+    \]
+  </li>
+  <li>
+    \[
+    \begin{aligned}
+      8x-3y &=18 &\Rightarrow& x=\tfrac{18+3y}{8}\\
+      8y-3x &= 7 &\Rightarrow& x=\tfrac{8y-7}{3}\\
+      \tfrac{18+3y}{8}&=\tfrac{8y-7}{3}\;\Rightarrow\;x=3,\;y=2
+    \end{aligned}\qquad\boxed{(3,2)}
+    \]
+  </li>
+</ol>
+
+<!-- Ítem iv ------------------------------------------------------ -->
+<h2 id="cap6-iv"><strong>Capítulo 6 – Ítem iv: Resolver por eliminación</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>
+    \[
+    \begin{aligned}
+      2x-12y&=6\\
+      3x+y&=9\\
+      36x+12y&=108\\
+      38x&=114\;\Rightarrow\;x=3,\;y=0
+    \end{aligned}\qquad\boxed{(3,0)}
+    \]
+  </li>
+  <li>
+    \[
+    x+y=12,\quad 2x-y=9\;\;\Longrightarrow\;\;x=7,\;y=5\qquad\boxed{(7,5)}
+    \]
+  </li>
+  <li>
+    \[
+    x-2y=13,\quad x+6y=-3\;\;\Longrightarrow\;\;y=-2,\;x=9\qquad\boxed{(9,-2)}
+    \]
+  </li>
+  <li>
+    \[
+    3x+4y=5,\quad 6x+7y=5\;\;\Longrightarrow\;\;x=-5,\;y=5\qquad\boxed{(-5,5)}
+    \]
+  </li>
+</ol>
+
+<!-- Ítem v ------------------------------------------------------- -->
+<h2 id="cap6-v"><strong>Capítulo 6 – Ítem v: Conjunto solución de cada sistema</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>\(\bigl(\tfrac{25}{13},\,\tfrac{34}{13}\bigr)\)</li>
+  <li>\((3,\,3)\)</li>
+  <li>\((2,\,1)\)</li>
+  <li>\((4,\,2)\)</li>
+  <li>\((1,\,1)\)</li>
+  <li>\((2,\,-2)\)</li>
+  <li>\((2,\,3)\)</li>
+  <li>\((0,\,1)\)</li>
+  <li>\((1,\,1)\)</li>
+  <li>\((4,\,2)\)</li>
+  <li>\((3,\,3)\)</li>
+  <li>\((2,\,4)\)</li>
+</ol>
+
+<!-- Ítem vi ------------------------------------------------------ -->
+<h2 id="cap6-vi"><strong>Capítulo 6 – Ítem vi: Sistemas provenientes de problemas verbales</strong></h2>
+<h3>Solución</h3>
+<ol>
+  <li>\(\begin{cases}x+y=180\\x=2y+12\end{cases}\)\; \((124,\,56)\) — ángulos de \(124^{\circ}\) y \(56^{\circ}\)</li>
+  <li>\(\begin{cases}2m+n=2\\3m+n=5\end{cases}\)\; \(m=-1,\;n=8\) — recta \(y=-x+8\)</li>
+  <li>\(\begin{cases}x+y=12\\x=3y\end{cases}\)\; \((9,\,3)\) — números \(9\) y \(3\)</li>
+  <li>\(\begin{cases}J-1=2(E-1)\\J+9=\tfrac43(E+9)\end{cases}\)\; \(J=11,\;E=6\) — Juan 11 años, Eduardo 6 años</li>
+  <li>\(\begin{cases}x+y=30\\y=2x\end{cases}\)\; \((10,\,20)\) — números \(10\) y \(20\)</li>
+  <li>\(\begin{cases}C=2M\\(C-10)+(M-10)=C\end{cases}\)\; \(C=40,\;M=20\) — Carla 40 años, Macarena 20 años</li>
+  <li>\(\begin{cases}x+y=10000\\y=x+2000\end{cases}\)\; \((4000,\,6000)\) — \$4000 y \$6000</li>
+  <li>\(\begin{cases}x+y=42\\x-y=6\end{cases}\)\; \((24,\,18)\) — números \(24\) y \(18\)</li>
+  <li>\(\begin{cases}x+y=90\\y=2x+3\end{cases}\)\; \((29^{\circ},\,61^{\circ})\) — ángulos de \(29^{\circ}\) y \(61^{\circ}\)</li>
+  <li>\(\begin{cases}5k-4k=6\end{cases}\)\; \((30,\,24)\) — edades 30 y 24 años</li>
+  <li>\(\begin{cases}2x-3y=7\\2x-5y=-15\end{cases}\)\; \((20,\,11)\) — números \(20\) y \(11\)</li>
+  <li>\(\begin{cases}4k+5k=63\end{cases}\)\; \((28,\,35)\) — números \(28\) y \(35\)</li>
+  <li>\(\begin{cases}x+y=40\\x-5=3(y+5)\end{cases}\)\; \((35,\,5)\) — 35 libros y 5 libros</li>
+  <li>\(\begin{cases}O+2=5Y\\O-6=Y\end{cases}\)\; \((8,\,2)\) — edades 8 y 2 años</li>
+  <li>\(\begin{cases}x+y=45\\x+5=2(y-5)\end{cases}\)\; \((25,\,20)\) — números \(25\) y \(20\)</li>
+  <li>\(\begin{cases}b+h=15\\2b=h+6\end{cases}\)\; \(b=7,\;h=8\) — base 7 cm, altura 8 cm</li>
+  <li>\(\begin{cases}2a+3b=-10\\3a+5b=-10\end{cases}\)\; \(a=-20,\;b=10\)</li>
+  <li>\(\begin{cases}N=3d+15\\N-d=85\end{cases}\)\; \((120,\,35)\) — números \(120\) y \(35\)</li>
+  <li>\(\begin{cases}a+b=9\\a-b=5\end{cases}\)\; \((7,\,2)\) — número \(72\)</li>
+  <li>\(\begin{cases}n=d\\\dfrac{n-3}{d+5}=3\end{cases}\)\; \(n=d=-9\) — fracción \(-9/-9=1\)</li>
+</ol>
+</body>
+</html>
